@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Mission from './Component/Mission'
+import MissionData from './Component/MissionData'
 
 class App extends Component {
   render() {
@@ -13,6 +15,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        
+        <Mission mission={new MissionData("Mission1","2018/08/03","BTL")}/>
       </div>
     );
   }
