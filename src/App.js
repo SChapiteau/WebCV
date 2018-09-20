@@ -17,8 +17,7 @@ class App extends Component {
         <p className="App-intro">
           Site en construction
         </p>
-        
-        <Mission mission={new MissionData("Mission1","2018/08/03","BTL")}/>
+                
       </div>
     );
   }
