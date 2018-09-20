@@ -6,20 +6,16 @@ class Header extends Component {
 
     render() {
       return (
-        <div className="Header">
-            <header className="App-header">
-                <img src={logo} className="sitelogo" alt="logo" 
-                style={sitelogo}/>
-                <h1 className="App-title">Welcome to React</h1>          
-            </header>
-        </div>
+        
+        <header className="Header" >
+            <span>
+                <img src={logo} className="Header-logo" alt="logo" />
+                <h1 className="Header-title">Welcome to my site</h1>          
+            </span>
+        </header>
+        
       );
     }
-  }
-
-  //A exporter en CSS
-  const sitelogo = {
-    height : '80px',
   }
 
   export default Header;
